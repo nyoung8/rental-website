@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Vacation Rental</title>
+    <!-- Tailwind CSS CDN (No installation or CSS files required) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tight text-blue-900">The Getaway Stay</span>
+            <div class="space-x-6 font-medium text-gray-600">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#gallery" class="hover:text-blue-600 transition">Gallery</a>
+                <a href="#booking" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-blue-900 text-white py-24 px-4 bg-cover bg-center" style="background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80');">
+        <div class="max-w-4xl mx-auto text-center space-y-4">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">Your Perfect Coastal Escape</h1>
+            <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto">Experience luxury living with breathtaking views, modern amenities, and all the comforts of home.</p>
+            <div class="pt-4">
+                <a href="#booking" class="bg-white text-blue-900 font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-gray-100 transition">Check Availability</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-16">
+
+        <!-- Property Overview & About Section -->
+        <section id="about" class="grid md:grid-cols-3 gap-8 items-start">
+            <div class="md:col-span-2 space-y-4">
+                <h2 class="text-3xl font-bold text-gray-900">About the Property</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Welcome to our beautifully curated home. Perfect for families, couples, or remote workers looking for a peaceful change of scenery. This space features an open-concept living area, a fully equipped gourmet kitchen, and a private outdoor patio perfect for morning coffee or sunset dinners.
+                </p>
+                <!-- Quick Features Badges -->
+                <div class="flex flex-wrap gap-3 pt-2">
+                    <span class="bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-sm font-medium">✨ Entire Home</span>
+                    <span class="bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-sm font-medium">👥 6 Guests</span>
+                    <span class="bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-sm font-medium">🛏️ 3 Bedrooms</span>
+                    <span class="bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-sm font-medium">🚿 2.5 Baths</span>
+                    <span class="bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-sm font-medium">🌐 High-Speed Wi-Fi</span>
+                </div>
+            </div>
+            
+            <!-- Amenities Quick List Card -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 space-y-4">
+                <h3 class="text-lg font-bold text-gray-900">Key Amenities</h3>
+                <ul class="space-y-2.5 text-gray-600">
+                    <li class="flex items-center">✅ Air Conditioning & Heating</li>
+                    <li class="flex items-center">✅ Washer & Dryer in unit</li>
+                    <li class="flex items-center">✅ Free Dedicated Parking</li>
+                    <li class="flex items-center">✅ Smart TV with Streaming</li>
+                    <li class="flex items-center">✅ Fresh Linens & Essentials</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Image Gallery Grid -->
+        <section id="gallery" class="space-y-4">
+            <h2 class="text-3xl font-bold text-gray-900">Gallery</h2>
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Living Room" class="rounded-xl h-48 w-full object-cover hover:opacity-95 transition shadow-sm">
+                <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=600&q=80" alt="Kitchen" class="rounded-xl h-48 w-full object-cover hover:opacity-95 transition shadow-sm">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80" alt="Master Bedroom" class="rounded-xl h-48 w-full object-cover hover:opacity-95 transition shadow-sm">
+            </div>
+        </section>
+
+        <hr class="border-gray-200">
+
+        <!-- Hostex Booking Section -->
+        <section id="booking" class="space-y-6 max-w-4xl mx-auto">
+            <div class="text-center space-y-2">
+                <h2 class="text-3xl font-bold text-gray-900">Book Your Stay</h2>
+                <p class="text-gray-600">Select your dates below to check live availability and reserve your stay securely.</p>
+            </div>
+            
+            <!-- Hostex Container -->
+            <div class="bg-white p-4 md:p-6 rounded-2xl shadow-md border border-gray-100 min-h-[500px]">
+                <!-- PASTE YOUR HOSTEX WIDGET EMBED CODE DIRECTLY BELOW THIS LINE -->
+                <div class="text-center py-20 text-gray-400 border-2 border-dashed border-gray-200 rounded-xl">
+                    <p class="font-medium">Hostex Booking Widget Container</p>
+                    <p class="text-xs mt-1">Your live calendar and intake form will render perfectly here once the script code is pasted.</p>
+                </div>
+                <!-- PASTE YOUR HOSTEX WIDGET EMBED CODE DIRECTLY ABOVE THIS LINE -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm border-t border-gray-800">
+        <p>&copy; 2026 The Getaway Stay. All rights reserved. Direct Booking Certified.</p>
+    </footer>
+
+</body>
+</html>
