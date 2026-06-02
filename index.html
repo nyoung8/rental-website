@@ -3,66 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury 7BR Ski Chalet with Swim Spa | Magic View Properties</title>
-    <!-- Tailwind CSS CDN -->
+    <title>7BR Mountain Estate with Swim Spa | Magic View Properties</title>
+    <!-- Search Engine Optimization (SEO) Meta Tags -->
+    <meta name="description" content="Book a 7-bedroom mountain estate in Sandy, Utah. Features a dual-zone swim spa, private hot tub, and 3-sided fireplace. Just 20 minutes to Alta and Snowbird ski resorts. Book direct for the best rates.">
+    <meta name="keywords" content="Sandy Utah vacation rental, 7 bedroom ski cabin Utah, Sandy UT group lodging, Alta Snowbird housing, direct booking mountain home Sandy">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sandyutahrental.com">
+
+    <!-- Social Media Optimization (Open Graph tags for Facebook, Vrbo, text shares) -->
+    <meta property="og:title" content="7BR Mountain Estate with Swim Spa | Sandy, Utah">
+    <meta property="og:description" content="Stunning 5,500 sq. ft. mountain home with high-end dual-zone swim spa. Perfect for families and ski groups. 20 mins to slopes.">
+    <meta property="og:image" content="https://yourusername.github.io/your-repository-name/images/gallery/thumbs/1.jpg">
+    <meta property="og:type" content="website">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    
+    <!-- Lodging Business Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Magic View Properties - Premium Mountain Estate",
+      "description": "A professionally designed 7-bedroom, 5-bathroom mountain residence in Sandy, Utah featuring a dual-zone swim spa and proximity to world-class ski resorts.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sandy",
+        "addressRegion": "UT",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.5705",
+        "longitude": "-111.8591"
+      },
+      "telephone": "+1-000-000-0000", 
+      "url": "https://sandyutahrental.com",
+      "numberOfRooms": "7",
+      "amenityFeature": [
+        "Dual-zone swim spa",
+        "Hot tub",
+        "3-sided fireplace",
+        "85-inch Smart TV",
+        "Free on-site parking",
+        "Fully equipped chef kitchen"
+      ]
+    }
+    </script>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased scroll-smooth">
 
-    <!-- Navigation Bar -->
     <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50 transition-all">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <span class="text-xl font-bold tracking-wider text-slate-900 uppercase">Magic View Properties</span>
-            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
-                <a href="#about" class="hover:text-blue-600 transition">The Chalet</a>
+            <div class="hidden md:flex space-x-8 font-medium text-slate-600 items-center">
+                <a href="#about" class="hover:text-blue-600 transition">The Property</a>
                 <a href="#amenities" class="hover:text-blue-600 transition">Amenities</a>
                 <a href="#gallery" class="hover:text-blue-600 transition">Gallery</a>
                 <a href="#location" class="hover:text-blue-600 transition">Location</a>
                 <a href="#book" class="bg-slate-900 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition tracking-wide text-sm font-semibold uppercase">Book Direct</a>
             </div>
+            <div class="md:hidden">
+                <a href="#book" class="bg-slate-900 text-white px-4 py-2 rounded-lg text-xs font-semibold uppercase tracking-wide">Book</a>
+            </div>
         </div>
     </nav>
 
-    <!-- Hero Section (Swap out the background URL with your main exterior/interior shot) -->
-    <header class="relative bg-slate-900 text-white py-32 px-6 bg-cover bg-center" style="background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.7)), url('images/hero.jpg');">
-        <!-- FALLBACK NOTE: If images/hero.jpg isn't ready yet, you can use a placeholder url to test layout -->
-        <div class="max-w-4xl mx-auto text-center space-y-6">
-            <span class="bg-blue-600 text-white text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full">Sandy, Utah • 20 Min to Slopes</span>
-            <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-tight">Luxury Mountain Chalet & Dual Zone Swim Spa</h1>
-            <p class="text-lg md:text-xl text-slate-200 max-w-2xl mx-auto font-light">5,500 sq. ft. of meticulously designed, down-to-the-studs luxury living. Perfect for ski groups, family gatherings, and pristine mountain getaways.</p>
-            <div class="pt-4">
-                <a href="#book" class="bg-white text-slate-900 font-bold px-8 py-4 rounded-xl shadow-xl hover:bg-slate-100 transition inline-block tracking-wide uppercase text-sm">View Availability & Rates</a>
+    <!-- Compact Action Ski Hero Section -->
+    <header class="relative min-h-[45vh] md:min-h-[50vh] flex items-center justify-center text-white px-6 bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(rgba(15, 23, 42, 0.45), rgba(15, 23, 42, 0.65)), url('https://cdn.skimag.com/wp-content/uploads/2022/03/GettyImages-690866601.jpg');">
+        <div class="max-w-4xl mx-auto text-center space-y-4 py-8 md:py-12">
+            <span class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md text-white text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full border border-white/20 shadow-md">
+                🏔️ Sandy, Utah • 20 Min to Slopes
+            </span>
+            <h1 class="text-3xl md:text-5xl font-black tracking-tight leading-tight uppercase drop-shadow-md">Premium Mountain Estate & Dual Zone Swim Spa</h1>
+            <p class="text-sm md:text-lg text-slate-100 max-w-2xl mx-auto font-light drop-shadow-md">5,500 sq. ft. of meticulously designed, down-to-the-studs upscale living. Perfect for ski groups, family gatherings, and pristine mountain getaways.</p>
+            <div class="pt-2">
+                <a href="#book" class="bg-white text-slate-900 font-bold px-5 py-2.5 md:px-7 md:py-3 rounded-xl shadow-xl hover:bg-blue-600 hover:text-white transition inline-block tracking-wide uppercase text-xs md:text-sm">View Availability & Rates</a>
             </div>
         </div>
     </header>
 
-    <!-- Quick Overview Stats Bar -->
     <div class="bg-white border-b border-slate-200 sticky top-[68px] z-40 hidden sm:block">
         <div class="max-w-6xl mx-auto px-6 py-4 grid grid-cols-5 text-center divide-x divide-slate-100">
             <div><p class="text-xs text-slate-400 uppercase font-bold tracking-wider">Guests</p><p class="text-base font-bold text-slate-800">Up to 16</p></div>
             <div><p class="text-xs text-slate-400 uppercase font-bold tracking-wider">Bedrooms</p><p class="text-base font-bold text-slate-800">7 Bedrooms</p></div>
-            <div><p class="text-xs text-slate-400 uppercase font-bold tracking-wider">Beds</p><p class="text-base font-bold text-slate-800">10 Luxury Beds</p></div>
+            <div><p class="text-xs text-slate-400 uppercase font-bold tracking-wider">Beds</p><p class="text-base font-bold text-slate-800">10 High-End Beds</p></div>
             <div><p class="text-xs text-slate-400 uppercase font-bold tracking-wider">Bathrooms</p><p class="text-base font-bold text-slate-800">5 Full Baths</p></div>
             <div><p class="text-xs text-slate-400 uppercase font-bold tracking-wider">Size</p><p class="text-base font-bold text-slate-800">5,500 Sq. Ft.</p></div>
         </div>
     </div>
 
-    <!-- Main Layout Wrapper -->
-    <main class="max-w-6xl mx-auto px-6 py-16 space-y-20">
+    <!-- Main Layout Wrapper (Updated for tighter top spacing) -->
+    <main class="max-w-6xl mx-auto px-6 pt-6 md:pt-8 pb-12 md:pb-16 space-y-16 md:space-y-20">
+
+        <!-- Mobile Stats Grid -->
+        <div class="grid grid-cols-3 gap-4 sm:hidden bg-white p-4 rounded-xl border border-slate-100 shadow-sm text-center">
+            <div><p class="text-[10px] text-slate-400 uppercase font-bold">Guests</p><p class="text-sm font-bold text-slate-800">Up to 16</p></div>
+            <div><p class="text-[10px] text-slate-400 uppercase font-bold">Beds</p><p class="text-sm font-bold text-slate-800">10 Beds</p></div>
+            <div><p class="text-[10px] text-slate-400 uppercase font-bold">Baths</p><p class="text-sm font-bold text-slate-800">5 Baths</p></div>
+        </div>
 
         <!-- About & Description -->
-        <section id="about" class="grid md:grid-cols-3 gap-12 items-start">
+        <section id="about" class="grid md:grid-cols-3 gap-8 md:gap-12 items-start !mt-0">
             <div class="md:col-span-2 space-y-6">
-                <h2 class="text-3xl font-black text-slate-900 tracking-tight uppercase">The Space</h2>
+                <h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight uppercase">The Space</h2>
                 <div class="space-y-4 text-slate-600 leading-relaxed text-base font-light">
-                    <p class="font-normal text-slate-900 text-lg">Completely remodeled down to the studs (completed October 2022). Every inch of this estate is professionally designed and decorated.</p>
+                    <p class="font-normal text-slate-900 text-lg">Completely remodeled down to the studs (completed October 2022). Every inch of this residence is professionally designed and curated.</p>
                     <p>Come home after a beautiful day of skiing Utah's finest powder and relax on the sofa by the custom 3-sided fireplace. Catch the game next to the fireplace upstairs while the kids watch a movie downstairs in the massive family room featuring an 85" Smart TV.</p>
-                    <p>Or choose to spend your afternoon lounging or swimming in our premium <strong>dual-zone hot tub / swim spa</strong>, taking in the snowy, panoramic mountain views.</p>
-                    <p><strong>Bedding Layout:</strong> Premium Cal King beds supply maximum comfort in every adult bedroom. One dedicated custom bunk room features 4 comfortable queen-size mattresses—perfect for families or singles.</p>
+                    <p>Or choose to spend your afternoon lounging or swimming in our high-end <strong>dual-zone hot tub / swim spa</strong>, taking in the snowy, panoramic mountain views.</p>
+                    <p><strong>Bedding Layout:</strong> Premium Cal King beds supply maximum comfort in every adult bedroom. One dedicated custom bunk room features 4 comfortable queen-size mattresses—perfect for families or groups.</p>
                 </div>
             </div>
             
-            <!-- Quick Rules Card -->
             <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
                 <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400">House Details</h3>
                 <div class="space-y-3 text-sm">
@@ -76,94 +127,127 @@
                     </div>
                     <div class="flex justify-between py-2">
                         <span class="text-slate-500">Proximity</span>
-                        <span class="font-semibold text-blue-600">20 min to Alta/Snowbird<br><span class="text-xs font-normal text-slate-500">25 min to Brighton/Solitude</span></span>
+                        <span class="font-semibold text-blue-600 text-right">20 min to Alta/Snowbird<br><span class="text-xs font-normal text-slate-500">25 min to Brighton/Solitude</span></span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Image Gallery Grid -->
         <section id="gallery" class="space-y-6">
-            <h2 class="text-3xl font-black text-slate-900 tracking-tight uppercase">Property Gallery</h2>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                <!-- Change the 'src' attributes below to match your file names inside your images folder -->
-                <img src="images/tub-1.jpg" alt="Living Room with Fireplace" class="rounded-xl h-64 w-full object-cover hover:scale-[1.01] transition shadow-sm bg-slate-200">
-                <img src="images/drone-1.jpg" alt="Luxury Kitchen Area" class="rounded-xl h-64 w-full object-cover hover:scale-[1.01] transition shadow-sm bg-slate-200">
-                <img src="images/livingroom-1.jpg" alt="Dual Zone Swim Spa" class="rounded-xl h-64 w-full object-cover hover:scale-[1.01] transition shadow-sm bg-slate-200">
-                <img src="images/tub-2.jpg" alt="Master Bedroom Cal King" class="rounded-xl h-64 w-full object-cover hover:scale-[1.01] transition shadow-sm bg-slate-200">
-                <img src="images/drone-2.jpg" alt="Custom Bunk Room" class="rounded-xl h-64 w-full object-cover hover:scale-[1.01] transition shadow-sm bg-slate-200">
-                <img src="images/dining-1.jpg" alt="Mountain View Exterior" class="rounded-xl h-64 w-full object-cover hover:scale-[1.01] transition shadow-sm bg-slate-200">
+            <div class="flex justify-between items-end">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight uppercase">Property Gallery</h2>
+                    <p class="text-slate-500 text-sm font-light mt-1">Click on any photo to view full-screen interactive mode.</p>
+                </div>
+            </div>
+            
+            <div id="photo-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-h-[750px] overflow-y-auto p-2 border border-slate-100 rounded-2xl bg-white shadow-inner">
             </div>
         </section>
 
-        <!-- Amenities Section -->
-        <section id="amenities" class="space-y-6 bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
-            <h2 class="text-3xl font-black text-slate-900 tracking-tight uppercase">Featured Amenities</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 pt-2">
-                <div class="flex items-center space-x-3 text-slate-700"><span>🌊</span> <span class="font-medium">Dual Swim Spa / Hot Tub</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🔥</span> <span class="font-medium">3-Sided Fireplace</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🚗</span> <span class="font-medium">Free On-Site Parking</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🧺</span> <span class="font-medium">Washing Machine</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🌀</span> <span class="font-medium">Clothes Dryer</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🍳</span> <span class="font-medium">Fully Equipped Kitchen</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🥩</span> <span class="font-medium">Barbecue Grill Area</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>📺</span> <span class="font-medium">85" Family Smart TV</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🧼</span> <span class="font-medium">Premium Toiletries</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🍽️</span> <span class="font-medium">Tableware & Pots</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>📶</span> <span class="font-medium">High Speed Wi-Fi</span></div>
-                <div class="flex items-center space-x-3 text-slate-700"><span>🏔️</span> <span class="font-medium">Mountain Views</span></div>
+        <section id="amenities" class="space-y-6 bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm">
+            <h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight uppercase">Featured Amenities</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6 pt-2">
+                <div class="flex items-center space-x-3 text-slate-700"><span>🌊</span> <span class="font-medium text-sm md:text-base">Dual Swim Spa / Hot Tub</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🔥</span> <span class="font-medium text-sm md:text-base">3-Sided Fireplace</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🚗</span> <span class="font-medium text-sm md:text-base">Free On-Site Parking</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🧺</span> <span class="font-medium text-sm md:text-base">Washing Machine</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🌀</span> <span class="font-medium text-sm md:text-base">Clothes Dryer</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🍳</span> <span class="font-medium text-sm md:text-base">Fully Equipped Kitchen</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🥩</span> <span class="font-medium text-sm md:text-base">Barbecue Grill Area</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>📺</span> <span class="font-medium text-sm md:text-base">85" Family Smart TV</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🧼</span> <span class="font-medium text-sm md:text-base">Premium Toiletries</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🍽️</span> <span class="font-medium text-sm md:text-base">Tableware & Pots</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>📶</span> <span class="font-medium text-sm md:text-base">High Speed Wi-Fi</span></div>
+                <div class="flex items-center space-x-3 text-slate-700"><span>🏔️</span> <span class="font-medium text-sm md:text-base">Mountain Views</span></div>
             </div>
         </section>
 
-        <!-- Location Information -->
-        <section id="location" class="grid md:grid-cols-3 gap-12 items-center">
+        <section id="location" class="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
             <div class="space-y-4">
-                <h2 class="text-3xl font-black text-slate-900 tracking-tight uppercase">The Location</h2>
-                <p class="text-slate-400 uppercase font-bold text-xs tracking-wider">East Bench • Sandy, Utah</p>
+                <h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight uppercase">The Location</h2>
+                <p class="text-slate-400 uppercase font-bold text-xs tracking-wider">Lostwood Dr • Sandy, Utah</p>
                 <p class="text-slate-600 font-light leading-relaxed">
                     Nestled elegantly up against the mountains in Sandy's beautiful East Bench community. Enjoy rapid access to world-renowned ski terrain: slopes like cross-country trails, snowboarding paths, and prime winter sledding are just outside your door.
                 </p>
-                <div class="text-sm font-semibold text-slate-700 space-y-1 bg-slate-100 p-4 rounded-xl">
+                <div class="text-sm font-semibold text-slate-700 space-y-2 bg-slate-100 p-4 rounded-xl">
                     <p>🎿 Alta & Snowbird — 20 Mins</p>
                     <p>🏂 Brighton & Solitude — 25 Mins</p>
                 </div>
             </div>
-            <div class="md:col-span-2 bg-slate-200 rounded-2xl h-72 flex items-center justify-center relative overflow-hidden shadow-inner">
-                <!-- If you want to embed a real Google Map down the line, place the code here. For now, it represents location seamlessly -->
-                <div class="text-center p-6">
-                    <p class="font-bold text-slate-700">East Bench Neighborhood Map View</p>
-                    <p class="text-xs text-slate-500 mt-1">Convenient mountain proximity access route</p>
-                </div>
+            <div class="md:col-span-2 bg-slate-200 rounded-2xl h-72 overflow-hidden shadow-sm border border-slate-100">
+                <iframe 
+                    class="w-full h-full border-0"
+                    src="https://maps.google.com/maps?q=Lostwood%20Dr,%20Sandy,%20UT&t=&z=15&ie=UTF-8&iwloc=&output=embed" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </section>
 
-        <!-- Hostex Live Dynamic Booking Block -->
-        <section id="book" class="space-y-6 max-w-4xl mx-auto pt-8">
+        <section id="book" class="space-y-6 max-w-4xl mx-auto pt-4">
             <div class="text-center space-y-2">
-                <h2 class="text-3xl font-black text-slate-900 tracking-tight uppercase">Select Dates & Reserve</h2>
-                <p class="text-slate-500 font-light">Direct booking guaranteed best rates. Dynamic dates, registration input, and processing handled securely.</p>
+                <h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight uppercase">Select Dates & Reserve</h2>
+                <p class="text-slate-500 font-light text-sm md:text-base">Direct booking guaranteed best rates. Dynamic dates, registration input, and processing handled securely.</p>
             </div>
             
             <div class="bg-white p-4 md:p-8 rounded-3xl shadow-xl border border-slate-100 min-h-[600px]">
-                <!-- ======================================================================= -->
-                <!-- PASTE YOUR HOSTEX DIRECT BOOKING EMBED SCRIPT DIRECTLY BELOW THIS LINE -->
-                <!-- ======================================================================= -->
-                
-<script src="https://hostex.io/app/assets/js/hostex-widget.js?version=20260526162046" type="module"></script>
-<hostex-booking-widget listing-id="119403" id="eyJob3N0X2lkIjoiMTA0NjYzIiwid2lkZ2V0X2hvc3QiOiJodHRwczovL3cuaG9zdGV4Ym9va2luZy5zaXRlIn0="></hostex-booking-widget>
-
-                <!-- ======================================================================= -->
-                <!-- PASTE YOUR HOSTEX DIRECT BOOKING EMBED SCRIPT DIRECTLY ABOVE THIS LINE -->
-                <!-- ======================================================================= -->
+                <script src="https://hostex.io/app/assets/js/hostex-widget.js?version=20260526162046" type="module"></script>
+                <hostex-booking-widget listing-id="119403" id="eyJob3N0X2lkIjoiMTA0NjYzIiwid2lkZ2V0X2hvc3QiOiJodHRwczovL3cuaG9zdGV4Ym9va2luZy5zaXRlIn0="></hostex-booking-widget>
             </div>
         </section>
 
     </main>
 
-    <!-- Footer -->
     <footer class="bg-slate-900 text-slate-500 py-12 text-center text-xs tracking-wider border-t border-slate-800 uppercase font-semibold">
-        <p>&copy; 2026 Magic View Properties. All rights reserved. • Direct Booking Verification Channel</p>
+        <p>© 2026 Magic View Properties. All rights reserved. • Direct Booking Verification Channel</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const photoGrid = document.getElementById('photo-grid');
+            let galleryHTML = '';
+            
+            // Dynamic geographic keywords list to cycle through for advanced image SEO
+            const seoKeywords = [
+                "Sandy Utah luxury vacation rental estate",
+                "Alta and Snowbird ski lodging home",
+                "Utah mountain cabin rental with dual-zone swim spa",
+                "Large group ski housing near Little Cottonwood Canyon",
+                "Salt Lake County 7 bedroom short term rental",
+                "Premium ski-in property East Bench Sandy UT",
+                "Remodeled family estate rental with mountain views",
+                "Exclusive ski lodging with hot tub in Sandy Utah"
+            ];
+            
+            // Loop to dynamically generate all 64 image layout cards
+            for (let i = 1; i <= 64; i++) {
+                // Select a keyword using modulo to distribute descriptions evenly
+                const currentKeyword = seoKeywords[i % seoKeywords.length];
+                const descriptiveAlt = `${currentKeyword} - Showcase Photo ${i}`;
+
+                galleryHTML += `
+                    <a href="images/gallery/full/${i}.jpg" class="glightbox group block relative overflow-hidden rounded-xl bg-slate-100 aspect-[4/3] shadow-sm" data-gallery="estate-gallery" data-title="${descriptiveAlt}">
+                        <img src="images/gallery/thumbs/${i}.jpg" alt="${descriptiveAlt}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy">
+                        <div class="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-lg">🔍</div>
+                    </a>
+                `;
+            }
+            
+            // Inject the complete string into the grid container
+            photoGrid.innerHTML = galleryHTML;
+
+            // Initialize the interactive lightbox engine after elements are built
+            const lightbox = GLightbox({
+                selector: '.glightbox',
+                loop: true,
+                openEffect: 'zoom',
+                closeEffect: 'zoom',
+                slideEffect: 'slide'
+            });
+        });
+    </script>
 </body>
 </html>
